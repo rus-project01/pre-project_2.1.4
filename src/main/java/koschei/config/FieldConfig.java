@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
 public class FieldConfig {
 
     @Bean
-    public static Duck5 getEgg(Egg6 egg) {
+    public static Duck5 getDuck(Egg6 egg) {
         return new Duck5(egg);
     }
 }
